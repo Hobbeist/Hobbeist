@@ -1,0 +1,18 @@
+---
+title: "A reporting template for the OceanOmics Team"
+author: ""
+date: "`r format(Sys.time(), '%d %B %Y')`"
+mail: ""
+github: "Hobbeist"
+home: "minderoo.org/oceanomics/"
+logo: "minderoo.png"
+output:
+  oceanomicsR::oceanomics:
+    toc: FALSE
+    number_sections: FALSE
+    code_folding: "hide"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
